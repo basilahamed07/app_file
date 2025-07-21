@@ -95,7 +95,7 @@ class AppTheme {
     ),
 
     // Card theme with minimal elevation
-    cardTheme: CardTheme(
+    cardTheme: CardThemeData(
       color: cardLight,
       elevation: 1.0,
       shadowColor: shadowLight,
@@ -283,7 +283,7 @@ class AppTheme {
     ),
 
     // Tab bar theme
-    tabBarTheme: TabBarTheme(
+    tabBarTheme: TabBarThemeData(
       labelColor: primaryLight,
       unselectedLabelColor: textSecondaryLight,
       indicatorColor: primaryLight,
